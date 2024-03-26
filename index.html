@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dashboard-header">
+        <h1 class="page-heading">Validator Performance Dashboard</h1>
+        <div class="validator-fetch">
+            <input type="text" id="validatorIndexInput" placeholder="Enter Validator Index">
+            <button onclick="updateValidatorMetrics()">Fetch Metrics</button>
+        </div>
+    </div>
+
+    <!-- Validator Metrics Summary -->
+    <div id="validatorMetricsSummary"></div>
+
+    <div class="chart-table">
+        <div class="chart-container">
+            <canvas id="incomeDetail"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="incomeChart"></canvas>
+        </div>
+    </div>
+    <script src="charts.js"></script>
+</body>
+
+</html>

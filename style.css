@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+
+.page-heading {
+    margin: 0;
+    /* Remove default margin */
+    flex-grow: 1;
+    /* Allow the heading to take up available space */
+}
+
+.validator-fetch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.chart-table {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.chart-container {
+    margin-bottom: 40px;
+}
+
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+#validatorMetricsSummary {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #86ffdb;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.metric-card {
+    background: #f0f4f8;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.metric-card h3,
+.metric-card p {
+    margin: 2px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.metric-card p {
+    color: #07b110;
+    font-weight: bold;
+}
