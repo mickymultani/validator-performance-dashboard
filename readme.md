@@ -2,6 +2,9 @@
 
 The Validator KPI Monitoring Dashboard is a simple web-based tool designed to provide an easy and intuitive way to monitor kpis for Ethereum 2.0 validators. It fetches and displays various metrics related to validator performance, including balance changes, rewards, penalties, and other crucial metrics that are vital for validators in the Ethereum 2.0 Proof of Stake ecosystem. All of this is using beaconcha.in free API.
 
+![validator-performance-dashboard](https://github.com/mickymultani/validator-performance-dashboard/assets/42827572/93bcb08d-0cb4-4491-b30b-8b66c484bd37)
+
+
 ## Features
 
 - **Real-time Data**: Dynamically fetches the latest validator metrics from the beaconcha.in API.
