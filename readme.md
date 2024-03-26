@@ -19,7 +19,9 @@ The Validator KPI Monitoring Dashboard is a simple web-based tool designed to pr
 To set up the Validator KPI Monitoring Dashboard on your local environment, follow these steps:
 
 1. **Clone the Repository**
-```git clone https://github.com/mickymultani/validator-performance-dashboard.git
+```
+git clone https://github.com/mickymultani/validator-performance-dashboard.git
+
 ```
 
 2. **Open the Dashboard**
